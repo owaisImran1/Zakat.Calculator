@@ -1,0 +1,24 @@
+label {
+    font-weight: 100;
+    font-size: 12px;
+  }
+  
+  input, label {
+    display: block;
+    padding: 4px;
+  }
+  
+  input {
+    margin-bottom: 10px;
+  }
+  
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
